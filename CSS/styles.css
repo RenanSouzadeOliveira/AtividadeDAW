@@ -1,0 +1,57 @@
+body{
+	background-image: url("../imagens/fundo.jpg");
+	background-size:100%;
+} /*estilo do corpo da  página*/
+h1{
+	color:white;
+	font-family: 'Oswald', sans-serif;
+}/*estilo dos titulos da  página*/
+
+main{
+	background-color: rgba(0,0,0, 0.6);
+	padding: 5px 5px;
+	margin-top: 20px;
+	border-radius: 10px;
+	text-align: center;
+}/*estilo do conteudo principal da  página*/
+p{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}/*estilo dos parágrafos da  página*/
+.video{
+	margin: 0;
+	text-align: center;
+}/*estilo do video da  página*/
+
+article{
+	text-align: center;
+	font-size: 20px;
+}/*estilo do artigo da  página*/
+
+.lucro{
+	margin:30px 0;
+	text-align: center;
+	width: 100%;
+} /*estilo da div 'lucro' da  página*/
+
+.lucro table{
+	background: rgba(255, 0, 0, 0.6);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+	font-family: 'Oswald', sans-serif;
+}/*estilo da tabel da  página*/
+
+.lucro table td,th{
+	border: 1px solid black;
+} /*estilo das células da  página*/
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.6);
+  color: white;
+  text-align: center;
+}
